@@ -364,9 +364,9 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>STC89Cxx-NRF24L01-TEST.C</FileName>
+              <FileName>chassis_controller.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\STC89Cxx-NRF24L01-TEST.C</FilePath>
+              <FilePath>.\chassis_controller.c</FilePath>
             </File>
           </Files>
         </Group>

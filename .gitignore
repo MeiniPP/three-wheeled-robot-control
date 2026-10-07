@@ -33,12 +33,9 @@
 *.lnp
 *.hex
 *.build_log.htm
-/程序/语音识别模块程序/语音芯片程序/obj/
-/程序/语音识别模块程序/语音芯片程序/keil4 APP/obj/
-/程序/语音识别模块程序/语音程序.txt
-/程序/语音识别模块程序/语音芯片程序/工程建立说明.doc
-/程序/语音识别模块程序/语音芯片程序/keil4 APP/YS-V0.3
-/程序/车体程序/STC89Cxx-NRF24L01-TEST
+/程序/
+/firmware/voice/obj/
+/firmware/voice/keil-project/obj/
 
 # Common editor and OS files.
 .DS_Store

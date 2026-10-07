@@ -42,11 +42,12 @@ The supplied component list identifies an STC89C52-compatible 8051 controller, t
 
 ## Repository Contents
 
-- `程序/车体程序/` — chassis firmware and its Keil project.
-- `程序/语音识别模块程序/语音芯片程序/code/` — voice-controller C source and headers.
-- `程序/语音识别模块程序/语音芯片程序/user/` — serial support source and header.
-- `程序/语音识别模块程序/语音芯片程序/keil4 APP/` — voice-module Keil project and supporting files.
-- `原理图/` — original schematic files (kept locally; not included in the Git publication set pending authorship and format review).
+- `firmware/chassis/` — chassis controller source and Keil project.
+- `firmware/voice/code/` — voice-controller C source and headers.
+- `firmware/voice/user/` — serial support source and header.
+- `firmware/voice/keil-project/` — voice-controller Keil project and nRF24L01 support files.
+- `car.png` — photograph of the prototype robot.
+- `README.md` — project overview, voice-command mapping, requirements, and references.
 
 ## Requirements
 
@@ -60,7 +61,7 @@ The project contains multiple Keil project snapshots and generated build artifac
 ## Build and Use
 
 1. Install Keil µVision 4 and the C51 toolchain, plus the appropriate STC device support if required by the target.
-2. Open the relevant `.uvproj` file under `程序/` in µVision.
+2. Open `firmware/chassis/chassis_controller.uvproj` or `firmware/voice/keil-project/voice_controller.uvproj` in µVision.
 3. Check the target device, oscillator frequency, include paths, source list, and pin mapping against the hardware.
 4. Build the project in µVision and resolve any missing toolchain or project-path issues.
 5. Flash the resulting firmware with a compatible programmer. Test with the wheels raised first, then test obstacle avoidance in a clear area.
