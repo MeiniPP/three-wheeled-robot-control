@@ -71,6 +71,23 @@ The repository does not include vendor installers, driver installers, third-part
 
 Embedded C, 8051/STC89C52, Keil C51 / µVision 4, LD3320, nRF24L01, infrared sensing, L298N motor control.
 
+## References
+
+The following sources document the components used in the project and provide relevant background. The links point to publisher or manufacturer pages where available; source documents are cited here rather than copied into this repository.
+
+### Component documentation
+
+- STC Microelectronics, [STC89C52RC product documentation](https://www.stcmicro.com/STC/STC89C52RC.html).
+- ICRoute, [LD3320 Development Manual](https://img.dfrobot.com.cn/wiki/none/fdd9e810f72b6947899e2d499993ae78.pdf) (manufacturer document hosted by DFRobot).
+- Nordic Semiconductor, [nRF24L01 Product Specification, revision 2.0](https://devzone.nordicsemi.com/cfs-file/__key/support-attachments/beef5d1b77644c448dabff31668f3a47-aad1a46f307945a7b0204fd969e86bdf/content.pdf).
+- STMicroelectronics, [L298 Dual Full-Bridge Driver Datasheet](https://www.st.com/resource/en/datasheet/l298.pdf).
+
+### Related reading
+
+- Zhang, Ji, and Teng-fei Yang. [“Design of Vehicular Speech Recognition System.”](https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFD2011&filename=JMDB201102010) *Journal of Jiamusi University (Natural Science Edition)*, 2011, issue 2. (Chinese title: “车载自动语音识别系统设计.”)
+- Hong, Jiapeng. [“Application of Embedded Speech Recognition System with LD3320.”](https://m.chinaaet.com/article/171692) AET, February 23, 2012. (Chinese title: “LD3320的嵌入式语音识别系统的应用.”)
+- Su, Baolin. [“Speech Recognition System Design Based on AVR MCU.”](https://www.eepw.com.cn/article/218550.htm) *Modern Electronics Technique* 35, no. 11 (2012): 136–138. (Chinese title: “基于AVR单片机的语音识别系统设计.”)
+
 ## Course and Team Context
 
 This was a university team project completed in Yangzhou from March to July 2022. The project summary identifies the contributor as team leader; implementation was collaborative, and this repository does not establish individual authorship for every source file.
