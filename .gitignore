@@ -1,0 +1,48 @@
+# Third-party, course, vendor, and installation materials; redistribution is unclear.
+/AGENTS.md
+/论文参考资料/
+/相关芯片资料/
+/程序下载软件/
+/配套开发软件/
+/原理图/
+/演示视频.MP4
+/红外原理讲解.mp4
+/tips.docx
+/器件清单.txt
+/使用前必读！！！.txt
+
+# Personal IDE settings, backups, logs, and generated Keil build artifacts.
+*.bak
+*.Bak
+*.uvgui*
+*.uvopt.bak
+*.uvproj.bak
+*_uvopt.bak
+*_uvproj.bak
+*.Uv2.Bak
+*.Opt.Bak
+*.opt.bak
+*.uvopt
+*.plg
+*.lst
+*.LST
+*.obj
+*.OBJ
+*.m51
+*.M51
+*.lnp
+*.hex
+*.build_log.htm
+/程序/语音识别模块程序/语音芯片程序/obj/
+/程序/语音识别模块程序/语音芯片程序/keil4 APP/obj/
+/程序/语音识别模块程序/语音程序.txt
+/程序/语音识别模块程序/语音芯片程序/工程建立说明.doc
+/程序/语音识别模块程序/语音芯片程序/keil4 APP/YS-V0.3
+/程序/车体程序/STC89Cxx-NRF24L01-TEST
+
+# Common editor and OS files.
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
