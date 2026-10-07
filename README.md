@@ -75,13 +75,13 @@ Embedded C, 8051/STC89C52, Keil C51 / µVision 4, LD3320, nRF24L01, infrared sen
 
 This was a university team project completed in Yangzhou from March to July 2022. The project summary identifies the contributor as team leader; implementation was collaborative, and this repository does not establish individual authorship for every source file.
 
-## Publication and Attribution Notes
+## Included and Excluded Materials
 
-The original directory also contains third-party papers, chip/module manuals, software and driver installers, videos, build outputs, and an Altium download link. These are excluded from the Git publication set because redistribution rights, necessity, or privacy are unclear. Some firmware files contain vendor/sample-code comments and a supplier contact address. Confirm the applicable license and remove or appropriately retain third-party contact details before public release. No license is declared for this repository.
+The repository contains the project firmware, Keil project files, this documentation, and a prototype photo. The original directory also contains third-party papers, chip/module manuals, software and driver installers, videos, build outputs, and an Altium download link; these are not included.
 
 ## GitHub Repository Recommendation
 
 - **Name:** `three-wheeled-robot-control`
 - **Description:** `8051-based three-wheeled robot with offline Chinese voice control, infrared obstacle avoidance, and nRF24L01 communication.`
 - **Topics:** `embedded-systems`, `8051`, `robotics`, `embedded-c`, `speech-recognition`, `obstacle-avoidance`
-- **Portfolio assessment:** Useful supporting project. It demonstrates embedded integration and team leadership, while public release should wait until source-code attribution and third-party contact details are reviewed.
+- **Portfolio assessment:** Useful supporting project demonstrating embedded integration and team leadership. The reported performance figures are not independently verified.
