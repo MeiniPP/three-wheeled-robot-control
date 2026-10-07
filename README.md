@@ -91,7 +91,7 @@ The following sources document the components used in the project and provide re
 
 ## Course and Team Context
 
-This was a university team project completed in Yangzhou from March to July 2022. The project summary identifies the contributor as team leader; implementation was collaborative, and this repository does not establish individual authorship for every source file.
+This was a university team project completed in Yangzhou from March to July 2022. This repository does not establish individual authorship for every source file.
 
 ## Included and Excluded Materials
 
